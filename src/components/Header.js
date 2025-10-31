@@ -16,7 +16,7 @@ const Header = () => {
     ];
 
     return (
-        <header className="z-50 bg-[#081524] text-white shadow-md">
+        <header className="z-50 bg-[#081524] text-white shadow-md sticky top-0">
             <div className="max-w-7xl mx-auto py-4 px-6 flex justify-between items-center">
                 {/* Logo */}
                 <Link href={"/"} className="flex items-center bg-white/80 px-2 py-1 rounded-md">
