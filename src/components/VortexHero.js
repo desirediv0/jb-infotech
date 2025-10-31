@@ -8,15 +8,14 @@ export function VortexHero() {
 
     const slides = [
         {
-            title: "Our Mission",
+
             description: "To deliver smart, affordable, and scalable IT integration solutions that simplify technology and empower people."
         },
         {
-            title: "Our Vision",
             description: "JP Infotech strives to be your trusted partner in technology. With a focus on delivering quality products, we offer the latest laptops, accessories, and network devices, always ensuring reliability, performance, and customer satisfaction."
         },
         {
-            title: "Our Commitment",
+
             description: "We constantly strive to innovate, adapt, and improve, ensuring that our products and services remain at the cutting edge of the tech industry."
         }
     ];
@@ -45,12 +44,10 @@ export function VortexHero() {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -20 }}
                         transition={{ duration: 0.8, ease: "easeInOut" }}
-                        className="flex flex-col items-center justify-center text-center max-w-4xl"
+                        className="flex flex-col items-center justify-center text-center max-w-7xl mx-auto"
                     >
-                        <h2 className="text-white text-3xl md:text-6xl font-bold text-center mb-6">
-                            {slides[currentSlide].title}
-                        </h2>
-                        <p className="text-white text-base md:text-2xl max-w-3xl leading-relaxed">
+
+                        <p className="text-white text-2xl md:text-4xl max-w-7xl leading-relaxed">
                             {slides[currentSlide].description}
                         </p>
                     </motion.div>
@@ -62,8 +59,8 @@ export function VortexHero() {
                         <button
                             key={index}
                             onClick={() => setCurrentSlide(index)}
-                            className={`w-3 h-3 rounded-full transition-all duration-300 ${index === currentSlide
-                                ? "bg-white w-8"
+                            className={`w-2 h-2 rounded-full transition-all duration-300 ${index === currentSlide
+                                ? "bg-white w-6"
                                 : "bg-white/40 hover:bg-white/60"
                                 }`}
                             aria-label={`Go to slide ${index + 1}`}
