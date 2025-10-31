@@ -29,43 +29,50 @@ export function VortexHero() {
     }, [slides.length]);
 
     return (
-        <div className="w-full mx-auto h-screen overflow-hidden">
+        <div className="w-full mx-auto h-[80vh] overflow-hidden">
             <Vortex
                 backgroundColor="black"
                 rangeY={800}
                 particleCount={500}
                 baseHue={120}
-                className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
+                className="w-full h-full flex items-center justify-center"
+
             >
-                <AnimatePresence mode="wait">
-                    <motion.div
-                        key={currentSlide}
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -20 }}
-                        transition={{ duration: 0.8, ease: "easeInOut" }}
-                        className="flex flex-col items-center justify-center text-center max-w-7xl mx-auto"
-                    >
+                <div className="flex items-center flex-col justify-center py-8 px-6 w-full max-w-6xl mx-auto">
+                    <AnimatePresence mode="wait">
+                        <motion.div
+                            key={currentSlide}
+                            initial={{ opacity: 0, y: 30, scale: 0.95 }}
+                            animate={{ opacity: 1, y: 0, scale: 1 }}
+                            exit={{ opacity: 0, y: -30, scale: 0.95 }}
+                            transition={{ duration: 0.8, ease: "easeInOut" }}
+                            className="flex flex-col items-center justify-center text-center"
+                        >
+                            <div className="relative backdrop-blur-md bg-white/90 rounded shadow-2xl p-8 md:p-12 border border-white/20">
+                                <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded opacity-20 blur-xl"></div>
+                                <h1 className="relative text-gray-900 text-xl md:text-3xl lg:text-4xl font-bold max-w-5xl leading-relaxed tracking-tight">
+                                    <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent capitalize">
+                                        {slides[currentSlide].description}
+                                    </span>
+                                </h1>
+                            </div>
+                        </motion.div>
+                    </AnimatePresence>
 
-                        <p className="text-white text-2xl md:text-4xl max-w-7xl leading-relaxed">
-                            {slides[currentSlide].description}
-                        </p>
-                    </motion.div>
-                </AnimatePresence>
-
-                {/* Slide Indicators */}
-                <div className="flex gap-3 mt-12">
-                    {slides.map((_, index) => (
-                        <button
-                            key={index}
-                            onClick={() => setCurrentSlide(index)}
-                            className={`w-2 h-2 rounded-full transition-all duration-300 ${index === currentSlide
-                                ? "bg-white w-6"
-                                : "bg-white/40 hover:bg-white/60"
-                                }`}
-                            aria-label={`Go to slide ${index + 1}`}
-                        />
-                    ))}
+                    {/* Slide Indicators */}
+                    <div className="flex gap-3 mt-8">
+                        {slides.map((_, index) => (
+                            <button
+                                key={index}
+                                onClick={() => setCurrentSlide(index)}
+                                className={`h-2 rounded-full transition-all duration-500 ${index === currentSlide
+                                    ? "bg-gradient-to-r from-blue-500 to-purple-500 w-12 shadow-lg"
+                                    : "bg-white/50 w-2 hover:bg-white/80 hover:w-8"
+                                    }`}
+                                aria-label={`Go to slide ${index + 1}`}
+                            />
+                        ))}
+                    </div>
                 </div>
             </Vortex>
         </div>
