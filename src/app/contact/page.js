@@ -68,7 +68,7 @@ export default function Contact() {
                         <div className="space-y-8">
                             <div className="bg-white rounded-xl shadow-lg p-6">
                                 <div className="flex items-center mb-4">
-                                    <FiMapPin className="text-blue-500 text-2xl mr-3" />
+                                    <FiMapPin className="text-[#160740] text-2xl mr-3" />
                                     <h3 className="text-xl font-semibold text-gray-900">Head Office</h3>
                                 </div>
                                 <p className="text-gray-600 ml-9">
@@ -79,7 +79,7 @@ export default function Contact() {
 
                             <div className="bg-white rounded-xl shadow-lg p-6">
                                 <div className="flex items-center mb-4">
-                                    <FiMapPin className="text-blue-500 text-2xl mr-3" />
+                                    <FiMapPin className="text-[#160740] text-2xl mr-3" />
                                     <h3 className="text-xl font-semibold text-gray-900">Branch Office</h3>
                                 </div>
                                 <p className="text-gray-600 ml-9">
@@ -89,21 +89,21 @@ export default function Contact() {
 
                             <div className="bg-white rounded-xl shadow-lg p-6">
                                 <div className="flex items-center mb-4">
-                                    <FiMail className="text-blue-500 text-2xl mr-3" />
+                                    <FiMail className="text-[#160740] text-2xl mr-3" />
                                     <h3 className="text-xl font-semibold text-gray-900">Email Us</h3>
                                 </div>
-                                <p className="text-blue-600 ml-9 hover:underline">
+                                <p className="text-[#160740] ml-9 hover:underline">
                                     <a href="mailto:sales@servicecom.in">sales@servicecom.in</a>
                                 </p>
                             </div>
 
                             <div className="bg-white rounded-xl shadow-lg p-6">
                                 <div className="flex items-center mb-4">
-                                    <FiPhone className="text-blue-500 text-2xl mr-3" />
+                                    <FiPhone className="text-[#160740] text-2xl mr-3" />
                                     <h3 className="text-xl font-semibold text-gray-900">Call Us</h3>
                                 </div>
                                 <p className="text-gray-600 ml-9">
-                                    <a href="tel:0124-4041352" className="hover:text-blue-600">0124-4041352</a>
+                                    <a href="tel:0124-4041352" className="hover:text-[#160740]">0124-4041352</a>
                                 </p>
                             </div>
                         </div>
@@ -116,14 +116,14 @@ export default function Contact() {
                                     <input
                                         type="text"
                                         placeholder="Enter your Name"
-                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#160740] focus:border-transparent transition-colors"
                                     />
                                 </div>
                                 <div className="relative">
                                     <input
                                         type="email"
                                         placeholder="Enter your Email"
-                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#160740] focus:border-transparent transition-colors"
                                     />
                                     <FiMail className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
                                 </div>
@@ -131,26 +131,26 @@ export default function Contact() {
                                     <input
                                         type="tel"
                                         placeholder="Enter your Phone"
-                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#160740] focus:border-transparent transition-colors"
                                     />
                                 </div>
                                 <div className="relative">
                                     <input
                                         type="text"
                                         placeholder="Enter your Subject"
-                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#160740] focus:border-transparent transition-colors"
                                     />
                                 </div>
                                 <div className="relative">
                                     <textarea
                                         placeholder="Write your message"
                                         rows="4"
-                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors resize-none"
+                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#160740] focus:border-transparent transition-colors resize-none"
                                     ></textarea>
                                 </div>
                                 <button
                                     type="submit"
-                                    className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+                                    className="w-full bg-[#160740] text-white py-3 px-6 rounded-lg hover:bg-[#160740] transition-colors font-medium"
                                 >
                                     Send Message
                                 </button>

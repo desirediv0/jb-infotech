@@ -140,7 +140,7 @@ export default function Services() {
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {services.map((service, index) => (
                             <div key={index} className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
-                                <div className="text-4xl mb-6 text-blue-600">
+                                <div className="text-4xl mb-6 text-[#37119f]">
                                     {getIcon(service.icon)}
                                 </div>
                                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
@@ -152,7 +152,7 @@ export default function Services() {
                                 <ul className="space-y-2">
                                     {service.features.map((feature, i) => (
                                         <li key={i} className="flex items-start">
-                                            <span className="text-blue-500 mr-2 mt-1">•</span>
+                                            <span className="text-[#37119f] mr-2 mt-1">•</span>
                                             <span className="text-gray-700">{feature}</span>
                                         </li>
                                     ))}

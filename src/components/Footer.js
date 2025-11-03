@@ -45,9 +45,9 @@ const Footer = () => {
                     <div>
                         <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
                         <div className="space-y-2 text-sm text-gray-400">
-                            <p>1382, Street No 18</p>
-                            <p>Surat Nagar 2</p>
-                            <p>Gurugram - 122006</p>
+                            <p>1382,18</p>
+                            <p>Surat Nagar phase 2</p>
+                            <p>Gurugram- 122006</p>
                             <p>Phone: 0124-4041352 | 011-41576815</p>
                             <p>Email: sales@jpinfotech.in</p>
                         </div>

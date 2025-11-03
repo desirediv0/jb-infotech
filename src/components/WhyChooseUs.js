@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 
 const WhyChooseUs = () => {
@@ -36,9 +37,11 @@ const WhyChooseUs = () => {
                     {features.map((feature, index) => (
                         <div key={index} className="text-center bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
                             <div className="flex justify-center mb-6">
-                                <img
+                                <Image
                                     src={feature.image}
                                     alt={feature.title}
+                                    width={128}
+                                    height={128}
                                     className="w-32 h-32 rounded-full object-cover shadow-md"
                                 />
                             </div>

@@ -26,7 +26,7 @@ const ReusableHero = ({
                     >
                         {subtitle && (
                             <motion.p
-                                className="text-blue-600 font-medium text-sm uppercase tracking-wider"
+                                className="text-[#160740] font-medium text-sm uppercase tracking-wider"
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6, delay: 0.2 }}
@@ -61,7 +61,7 @@ const ReusableHero = ({
                             >
                                 <Link
                                     href={buttonLink}
-                                    className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                                    className="inline-block bg-[#160740] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#160740] transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                                 >
                                     {buttonText}
                                 </Link>

@@ -48,9 +48,9 @@ export function VortexHero() {
                             className="flex flex-col items-center justify-center text-center"
                         >
                             <div className="relative backdrop-blur-md  w-full">
-                                <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded opacity-20 blur-xl"></div>
+                                <div className="absolute -inset-1 bg-gradient-to-r from-[#160740] to-purple-600 rounded opacity-20 blur-xl"></div>
                                 <h1 className="relative text-gray-900 text-xl md:text-3xl lg:text-4xl font-bold max-w-5xl leading-relaxed tracking-tight">
-                                    <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent capitalize">
+                                    <span className="bg-gradient-to-r from-[#160740] to-purple-600 bg-clip-text text-transparent capitalize">
                                         {slides[currentSlide].description}
                                     </span>
                                 </h1>

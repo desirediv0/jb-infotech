@@ -54,7 +54,7 @@ const ServicesSection = () => {
                                 className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 group"
                             >
                                 <div className="flex flex-col items-start">
-                                    <div className="mb-6 text-blue-600 group-hover:scale-110 transition-transform duration-300">
+                                    <div className="mb-6 text-[#37119f] group-hover:scale-110 transition-transform duration-300">
                                         <Icon size={48} strokeWidth={1.5} />
                                     </div>
                                     <h3 className="text-xl font-bold text-gray-900 mb-3">

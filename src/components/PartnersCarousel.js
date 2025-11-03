@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 const PartnersCarousel = () => {
@@ -40,9 +41,11 @@ const PartnersCarousel = () => {
                 {partners.map((partner, index) => (
                     <div key={index} className="w-1/3 flex-shrink-0 px-4">
                         <div className="bg-white rounded-lg shadow-md p-8 flex flex-col items-center justify-center h-32">
-                            <img
+                            <Image
                                 src={partner.logo}
                                 alt={partner.name}
+                                width={150}
+                                height={60}
                                 className="max-h-16 max-w-32 object-contain mb-2"
                             />
                             <p className="text-gray-700 font-medium text-center">{partner.name}</p>
