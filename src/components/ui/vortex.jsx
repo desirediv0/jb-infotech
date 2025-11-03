@@ -30,9 +30,7 @@ export const Vortex = (props) => {
   let particleProps = new Float32Array(particlePropsLength);
   let center = [0, 0];
 
-  const HALF_PI = 0.5 * Math.PI;
   const TAU = 2 * Math.PI;
-  const TO_RAD = Math.PI / 180;
   const rand = n => n * Math.random();
   const randRange = n => n - rand(2 * n);
   const fadeInOut = (t, m) => {

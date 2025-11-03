@@ -1,41 +1,68 @@
-import ReusableHero from '../../components/ReusableHero';
-import { InfiniteSlider } from '../../components/ui/infinite-slider';
-import ClientsCarousel from '../../components/ClientsCarousel';
 import Image from 'next/image';
+import ReusableHero from '../../components/ReusableHero';
 import CallToAction from '@/components/CallToAction';
+import ClientsCarousel from '@/components/ClientsCarousel';
+import { InfiniteSlider } from '@/components/ui/infinite-slider';
 
 export default function About() {
     return (
         <div className="min-h-screen bg-gray-50">
             <ReusableHero
                 title="About Us"
-                description="JP IFNOTECH Technology is an IT Infrastructure system integration company providing services to design, plan, implement, manage and review IT networks."
-                buttonText="Check Out Our Services"
+                description="Welcome to JP INFOTECH — empowering businesses through smart IT system integration. We combine technology, creativity, and innovation to make your operations smoother, faster, and more connected."
+                buttonText="Explore Our Services"
                 buttonLink="/services"
                 imageSrc="/about.jpg"
                 backgroundColor="bg-gradient-to-r from-blue-100 to-purple-100"
             />
 
             {/* Content Section */}
-            <section className="py-16">
+            <section className="py-12">
                 <div className="max-w-7xl mx-auto px-6">
-                    <div className="max-w-6xl mx-auto">
-                        <p className="text-base text-gray-600 leading-relaxed mb-8">
-                            To introduce JP IFNOTECH Technology is the IT Infrastructure System Integration Company. We provide services to Design, Plan, Implement, Manage and Review IT Networks.
+                    <div className="max-w-6xl mx-auto space-y-8 text-gray-700 leading-relaxed">
+
+                        <p>
+                            Welcome to <strong>JP INFOTECH</strong>, a passionate team dedicated to helping businesses grow through smart IT system integration. We bring together technology, creativity, and innovation to build solutions that make your operations smoother, faster, and more connected.
                         </p>
 
-                        <p className="text-base text-gray-600 leading-relaxed mb-8">
-                            JP IFNOTECH Technology has been providing professional IT Support and managed IT Consultancy for businesses. We strive to give our clients Enterprise-level services and solutions at prices that work for businesses. Time and experience have helped us develop best practices and workflow procedures around a proactive philosophy designed to keep your focus on your business, not your technology. Our team of experts can become your outsourced IT department; responding to issues quickly, often before you even know about them. Covering everything from your servers and network infrastructure, to your computers, workstations, we provide end-to-end solutions for all of your technology needs.
+                        <h2 className="text-2xl font-semibold text-gray-800 mt-5">Who We Are</h2>
+                        <p>
+                            We’re a team of tech enthusiasts and problem-solvers who believe that technology should make work simpler—not harder. Our mission is to help organizations of all sizes bridge the gap between traditional systems and modern technology.
                         </p>
 
-                        <p className="text-base text-gray-600 leading-relaxed mb-16">
-                            The state-of-the-art infrastructure selected is both scalable and flexible providing for small to corporate sized enterprises. It has a distinct location advantage; being midway between the national capital, Delhi. We bring to the world a whole new class of services and a unique approach to customer satisfaction. We serve to the world and an extensive portfolio of services in the most professional manner and also adhering to the industry standards. We share our knowledge of offshore development, our deep project management experience, processes and methodology and wide network of personnel sources to ensure an outsourcing strategy that works for our clients. With strong plans of investing in people and technology, our strategy revolves around an inexorable commitment to provide superior services using world-class technology. The aim is to build a culture, based on our values of integrity and trust; supported by action with results.
+                        <h2 className="text-2xl font-semibold text-gray-800 mt-5">What We Do</h2>
+                        <p>We specialize in integrating IT systems and services that help businesses perform better. Our key offerings include:</p>
+                        <ul className="list-disc pl-6 space-y-2">
+                            <li><strong>System & Network Integration</strong> – Connecting your systems for smooth, secure operation.</li>
+                            <li><strong>Cloud & Infrastructure Solutions</strong> – Scalable setups that grow with your business.</li>
+                            <li><strong>Software & Application Integration</strong> – Making different tools and platforms work together seamlessly.</li>
+                            <li><strong>IT Support & Maintenance</strong> – Reliable assistance to keep your systems running 24/7.</li>
+                        </ul>
+
+                        <h2 className="text-2xl font-semibold text-gray-800 mt-5">Our Vision</h2>
+                        <p>
+                            To become a trusted technology partner for businesses that want to innovate, scale, and succeed in the digital era.
+                        </p>
+
+                        <h2 className="text-2xl font-semibold text-gray-800 mt-5">Our Mission</h2>
+                        <p>
+                            To deliver smart, affordable, and scalable IT integration solutions that simplify technology and empower people.
+                        </p>
+
+                        <h2 className="text-2xl font-semibold text-gray-800 mt-5">Why Choose Us</h2>
+                        <ul className="list-disc pl-6 space-y-2">
+                            <li><strong>Startup Agility:</strong> We move fast and adapt to your needs.</li>
+                            <li><strong>Tailored Solutions:</strong> Every project is designed specifically for your goals.</li>
+                            <li><strong>Personal Support:</strong> You work directly with our dedicated team.</li>
+                            <li><strong>Passion for Innovation:</strong> We love what we do—and it shows in our results.</li>
+                        </ul>
+
+                        <p className="mt-5">
+                            At <strong>JP INFOTECH</strong>, we’re not just integrating systems — we’re helping build the digital backbone of your business.
                         </p>
                     </div>
                 </div>
             </section>
-
-            {/* Our Proud Partners Section */}
             <section className="py-16 bg-white">
                 <div className="max-w-7xl mx-auto px-6">
                     <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Our Proud Partners</h2>
@@ -170,6 +197,8 @@ export default function About() {
                     <ClientsCarousel />
                 </div>
             </section>
+
+            {/* Call to Action Section */}
             <CallToAction />
         </div>
     );
