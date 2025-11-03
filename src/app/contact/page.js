@@ -9,7 +9,7 @@ export default function Contact() {
                 title="Contact Us"
                 description="Have questions or need assistance? Our team is ready to help."
                 imageSrc="/contact.jpg"
-                backgroundColor="bg-gradient-to-br from-blue-100 to-indigo-100"
+                backgroundColor="bg-gradient-to-r from-purple-100 to-[#cbb8fb]"
                 showbtn={false}
             />
 

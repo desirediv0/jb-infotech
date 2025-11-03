@@ -131,7 +131,7 @@ export default function Services() {
                 buttonText="Contact Us"
                 buttonLink="/contact"
                 imageSrc="/service.jpg"
-                backgroundColor="bg-gradient-to-br from-blue-100 to-indigo-100"
+                backgroundColor="bg-gradient-to-r from-purple-100 to-[#cbb8fb]"
             />
 
             {/* Services Grid */}

@@ -13,7 +13,7 @@ export default function About() {
                 buttonText="Explore Our Services"
                 buttonLink="/services"
                 imageSrc="/about.jpg"
-                backgroundColor="bg-gradient-to-r from-blue-100 to-purple-100"
+                backgroundColor="bg-gradient-to-r from-purple-100 to-[#cbb8fb]"
             />
 
             {/* Content Section */}

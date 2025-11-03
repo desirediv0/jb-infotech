@@ -11,7 +11,7 @@ const StatsSection = () => {
     return (
         <div>
             {/* Stats Section */}
-            <div className="bg-[#37119f] rounded-lg py-12">
+            <div className="bg-[#160640] rounded-lg py-12">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white max-w-7xl mx-auto ">
                     {stats.map((stat, index) => {
                         const IconComponent = stat.icon;

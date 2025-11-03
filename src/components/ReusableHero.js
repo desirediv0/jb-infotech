@@ -77,7 +77,7 @@ const ReusableHero = ({
                         transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
                     >
                         <motion.div
-                            className="relative overflow-hidden rounded-xl shadow-2xl"
+                            className="relative overflow-hidden rounded shadow-2xl"
                             whileHover={{ scale: 1.02 }}
                             transition={{ duration: 0.3 }}
                         >
