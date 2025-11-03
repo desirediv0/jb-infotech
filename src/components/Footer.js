@@ -45,8 +45,8 @@ const Footer = () => {
                     <div>
                         <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
                         <div className="space-y-2 text-sm text-gray-200">
-                            <p>1382, Street No 18</p>
-                            <p>Surat Nagar phase 2</p>
+                            <p>1382, / 18</p>
+                            <p>Surat Nagar Phase 2</p>
                             <p>Gurugram- 122006</p>
                             <p>Phone: +91-9667092504</p>
                             <p>Email: sales@jpinfotech.net.in</p>
@@ -55,15 +55,15 @@ const Footer = () => {
 
                     {/* Follow Us */}
                     <div>
-                        <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
+                        <h3 className="text-lg font-semibold mb-4">Connect Us</h3>
                         <div className="flex space-x-4">
-                            <a href="#" className="text-gray-200 hover:text-white transition-colors">
+                            {/* <a href="#" className="text-gray-200 hover:text-white transition-colors">
                                 <FiTwitter size={24} />
                             </a>
                             <a href="#" className="text-gray-200 hover:text-white transition-colors">
                                 <FiLinkedin size={24} />
-                            </a>
-                            <a href="#" className="text-gray-200 hover:text-white transition-colors">
+                            </a> */}
+                            <a href="mailto:sales@jpinfotech.net.in" className="text-gray-200 hover:text-white transition-colors">
                                 <FiMail size={24} />
                             </a>
                         </div>
