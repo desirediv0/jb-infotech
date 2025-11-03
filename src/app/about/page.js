@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import ReusableHero from '../../components/ReusableHero';
 import CallToAction from '@/components/CallToAction';
-import ClientsCarousel from '@/components/ClientsCarousel';
 import { InfiniteSlider } from '@/components/ui/infinite-slider';
 
 export default function About() {
@@ -22,43 +21,80 @@ export default function About() {
                     <div className="max-w-6xl mx-auto space-y-8 text-gray-700 leading-relaxed">
 
                         <p>
-                            Welcome to <strong>JP INFOTECH</strong>, a passionate team dedicated to helping businesses grow through smart IT system integration. We bring together technology, creativity, and innovation to build solutions that make your operations smoother, faster, and more connected.
+                            <strong>JP INFOTECH</strong> – Empowering Businesses Through Intelligent IT Infrastructure
+
+                        </p>
+
+                        <p>
+                            At JP INFOTECH, we understand that in today’s fast-evolving digital landscape, technology is not just an enabler, it’s a critical
+                            foundation for business success. That’s why we are committed to delivering <strong>
+                                end-to-end IT infrastructure solutions
+                            </strong> that
+                            empower organizations to operate seamlessly, securely, and efficiently.
+
                         </p>
 
                         <h2 className="text-2xl font-semibold text-gray-800 mt-5">Who We Are</h2>
                         <p>
-                            We’re a team of tech enthusiasts and problem-solvers who believe that technology should make work simpler—not harder. Our mission is to help organizations of all sizes bridge the gap between traditional systems and modern technology.
+                            Backed by almost a decade of industry experience, <strong>JP INFOTECH</strong> has been delivering <strong>professional IT support and managed
+                                technology consultancy</strong> to a diverse portfolio of clients. Our approach combines <strong>enterprise-grade expertise</strong> with costeffective solutions, ensuring that our clients receive maximum value and performance from their IT investments.
+                            Over time, we have developed <strong>robust best practices and proactive workflows </strong> designed to minimize downtime, enhance
+                            system reliability, and keep our clients focused on what matters most - <strong>Growing their business</strong>.
+
                         </p>
 
-                        <h2 className="text-2xl font-semibold text-gray-800 mt-5">What We Do</h2>
-                        <p>We specialize in integrating IT systems and services that help businesses perform better. Our key offerings include:</p>
+                        <h2 className="text-2xl font-semibold text-gray-800 mt-5">Our Expertise
+                        </h2>
+                        <p>Our team of <strong>seasoned IT professionals</strong> acts as your <strong>dedicated, outsourced IT department,</strong> ensuring that your systems
+                            operate with optimal efficiency. From <strong>network design and server management</strong> to <strong>hardware support and security</strong>, we deliver
+                            <strong>comprehensive, integrated solutions</strong> that cover every facet of your technology infrastructure.
+                            Our infrastructure capabilities are <strong>scalable and flexible</strong>, catering equally to startups, SMEs, and large enterprises. Strategically
+                            located near Delhi NCR, our operations centre provides a <strong>geographical advantage</strong> for serving clients across India and beyond.</p>
                         <ul className="list-disc pl-6 space-y-2">
-                            <li><strong>System & Network Integration</strong> – Connecting your systems for smooth, secure operation.</li>
-                            <li><strong>Cloud & Infrastructure Solutions</strong> – Scalable setups that grow with your business.</li>
-                            <li><strong>Software & Application Integration</strong> – Making different tools and platforms work together seamlessly.</li>
-                            <li><strong>IT Support & Maintenance</strong> – Reliable assistance to keep your systems running 24/7.</li>
+                            <h2 className="text-2xl font-semibold text-gray-800 mt-5">What We Offers
+                            </h2>
+                            <li><strong>Network Design & Implementation</strong> </li>
+                            <li><strong> Managed IT Services & Support</strong> </li>
+                            <li><strong>System Integration Solutions</strong></li>
+                            <li><strong>Server, Storage & Security Solutions</strong> </li>
+                            <li><strong>Cloud Infrastructure Consulting</strong> </li>
+                            <li><strong>IT Infrastructure Audits & Optimization</strong> </li>
+                            <li><strong>AMC & Facility Management Services</strong> </li>
                         </ul>
-
-                        <h2 className="text-2xl font-semibold text-gray-800 mt-5">Our Vision</h2>
                         <p>
-                            To become a trusted technology partner for businesses that want to innovate, scale, and succeed in the digital era.
+                            Each solution we provide is <strong>customized, future-ready</strong>, and aligned with the client’s business objectives —
+                            ensuring measurable results and long-term value.
+                        </p>
+                        <h2 className="text-2xl font-semibold text-gray-800 mt-5">Our Philosophy</h2>
+                        <p>At JP INFOTECH, we bring to the industry <strong>a fresh, forward-thinking approach to customer satisfaction</strong>. Our
+                            philosophy is rooted in <strong>trust, integrity, and performance</strong> — values that define every engagement we undertake.
+                            We believe in building partnerships, not transactions, and our commitment to service excellence reflects in every
+                            project we deliver</p>
+
+                        <h2 className="text-2xl font-semibold text-gray-800 mt-5">Global Outlook, Local Expertise</h2>
+                        <p>
+                            Our deep understanding of <strong>offshore development, project management methodologies, and process
+                                frameworks</strong> allows us to deliver high-quality outsourcing strategies that truly work for our clients. With continued
+                            investments in <strong>people and technology</strong>, our mission is to create a culture where <strong>innovation meets reliability</strong>, and
+                            where <strong>results speak louder than promises</strong>.
                         </p>
 
-                        <h2 className="text-2xl font-semibold text-gray-800 mt-5">Our Mission</h2>
-                        <p>
-                            To deliver smart, affordable, and scalable IT integration solutions that simplify technology and empower people.
-                        </p>
-
-                        <h2 className="text-2xl font-semibold text-gray-800 mt-5">Why Choose Us</h2>
-                        <ul className="list-disc pl-6 space-y-2">
-                            <li><strong>Startup Agility:</strong> We move fast and adapt to your needs.</li>
-                            <li><strong>Tailored Solutions:</strong> Every project is designed specifically for your goals.</li>
-                            <li><strong>Personal Support:</strong> You work directly with our dedicated team.</li>
-                            <li><strong>Passion for Innovation:</strong> We love what we do—and it shows in our results.</li>
-                        </ul>
+                        <h2 className="text-2xl font-semibold text-gray-800 mt-5">Strategic Alliances
+                        </h2>
 
                         <p className="mt-5">
-                            At <strong>JP INFOTECH</strong>, we’re not just integrating systems — we’re helping build the digital backbone of your business.
+                            JP INFOTECH maintains <strong>strong alliances with reputed OEMs and service providers</strong>, ensuring that every solution
+                            we offer is built on <strong>trusted, world-class technologies</strong>. These partnerships empower us to deliver <strong> cutting-edge
+                                products, seamless integration, and unmatched service quality</strong> to our valued clients.
+                        </p>
+                        <h2 className="text-2xl font-semibold text-gray-800 mt-5">Our Commitment
+
+                        </h2>
+
+                        <p className="mt-5">
+                            Our goal is simple — to be the <strong>single point of contact</strong> for all your IT infrastructure needs.
+                            We aspire to build long-term relationships based on <strong>excellence, transparency, and trust</strong> — driving growth for our
+                            clients and shaping the future of technology-driven enterprises.
                         </p>
                     </div>
                 </div>
@@ -189,16 +225,6 @@ export default function About() {
                     </InfiniteSlider>
                 </div>
             </section>
-
-            {/* Our Precious Clients Section */}
-            <section className="py-16 bg-gray-50">
-                <div className="max-w-7xl mx-auto px-6">
-                    <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Our Precious Clients</h2>
-                    <ClientsCarousel />
-                </div>
-            </section>
-
-            {/* Call to Action Section */}
             <CallToAction />
         </div>
     );

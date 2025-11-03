@@ -2,7 +2,7 @@
 import WhyChooseUs from "../components/WhyChooseUs";
 import ServicesSection from "../components/ServicesSection";
 import CallToAction from "../components/CallToAction";
-import StatsSection from "@/components/Stats";
+// import StatsSection from "@/components/Stats";
 import { VortexHero } from "@/components/VortexHero";
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <VortexHero />
       <WhyChooseUs />
-      <StatsSection />
+      {/* <StatsSection /> */}
       <ServicesSection />
       <CallToAction />
     </div>

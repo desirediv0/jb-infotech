@@ -8,7 +8,7 @@ export default function Services() {
         {
             icon: "shield",
             title: "Security",
-            description: "JP IFNOTECH Technology provide various type of security like as Gateway level security, that protect your data from unauthorized access.",
+            description: "JP IFNOTECH provide various type of security like as Gateway level security, that protect your data from unauthorized access.",
             features: [
                 "Firewall & Gateway Level Security Solutions",
                 "End Host Security",
@@ -164,7 +164,7 @@ export default function Services() {
             </section>
 
             {/* Call to Action */}
-            <section className="bg-[#1C398E] py-14">
+            <section className="bg-[#160640] py-14">
                 <div className="max-w-7xl mx-auto px-6 text-center">
                     <h2 className="text-3xl  font-bold text-white mb-4">
                         Ready to Get Started?
@@ -174,7 +174,7 @@ export default function Services() {
                     </p>
                     <Link
                         href="/contact"
-                        className="inline-block bg-white text-[#1C398E] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg"
+                        className="inline-block bg-white text-[#160640] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg"
                     >
                         Contact Us
                     </Link>

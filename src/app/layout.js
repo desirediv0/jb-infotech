@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "JP IFNOTECH Technology - Complete IT Solutions",
+  title: "JP IFNOTECH - Complete IT Solutions",
   description: "Delivering innovative tech solutions for tomorrow's challenges. Complete IT solutions under one umbrella.",
 };
 

@@ -37,7 +37,7 @@ export function VortexHero() {
                 baseHue={120}
                 className="w-full h-full flex items-center justify-center"
             >
-                <div className="flex items-center flex-col justify-center py-8 w-full mx-auto bg-white/80 min-h-72 shadow-2xl p-8 md:p-12">
+                <div className="flex items-center flex-col justify-center py-8 w-full mx-auto bg-white/60 min-h-72 shadow-2xl p-8 md:p-12">
                     <AnimatePresence mode="wait">
                         <motion.div
                             key={currentSlide}

@@ -18,7 +18,7 @@ export default function Contact() {
                 <div className="max-w-7xl mx-auto px-6">
                     <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Our Locations</h2>
 
-                    <div className="grid lg:grid-cols-2 gap-8 mb-16">
+                    <div className="grid grid-cols-1 gap-8 mb-16">
                         {/* Head Office */}
                         <div className="bg-white rounded-xl shadow-lg overflow-hidden">
                             <div className="p-6">
@@ -40,26 +40,7 @@ export default function Contact() {
                             </div>
                         </div>
 
-                        {/* Branch Office */}
-                        <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-                            <div className="p-6">
-                                <h3 className="text-xl font-semibold text-gray-900 mb-2">Branch Office</h3>
-                                <p className="text-gray-600 mb-4">
-                                    518, 5th Floor, Ansal Tower 38, Nehru Place, New Delhi - 110019
-                                </p>
-                            </div>
-                            <div className="h-64 bg-gray-100 flex items-center justify-center">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.6743926967997!2d77.24663031455373!3d28.549127282446678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3c16a4b4b4b%3A0x4b4b4b4b4b4b4b4b!2sNehru%20Place%2C%20New%20Delhi!5e0!3m2!1sen!2sin!4v1635764556789!5m2!1sen!2sin"
-                                    width="100%"
-                                    height="100%"
-                                    style={{ border: 0 }}
-                                    allowFullScreen=""
-                                    loading="lazy"
-                                    referrerPolicy="no-referrer-when-downgrade"
-                                ></iframe>
-                            </div>
-                        </div>
+
                     </div>
 
                     {/* Contact Information and Form */}
@@ -77,15 +58,6 @@ export default function Contact() {
                                 </p>
                             </div>
 
-                            <div className="bg-white rounded-xl shadow-lg p-6">
-                                <div className="flex items-center mb-4">
-                                    <FiMapPin className="text-[#160740] text-2xl mr-3" />
-                                    <h3 className="text-xl font-semibold text-gray-900">Branch Office</h3>
-                                </div>
-                                <p className="text-gray-600 ml-9">
-                                    518, 5th Floor, Ansal Tower 38, Nehru Place, New Delhi - 110019
-                                </p>
-                            </div>
 
                             <div className="bg-white rounded-xl shadow-lg p-6">
                                 <div className="flex items-center mb-4">
@@ -93,7 +65,7 @@ export default function Contact() {
                                     <h3 className="text-xl font-semibold text-gray-900">Email Us</h3>
                                 </div>
                                 <p className="text-[#160740] ml-9 hover:underline">
-                                    <a href="mailto:sales@servicecom.in">sales@servicecom.in</a>
+                                    <a href="mailto:sales@jpinfotech.net.in">sales@jpinfotech.net.in</a>
                                 </p>
                             </div>
 
@@ -103,7 +75,7 @@ export default function Contact() {
                                     <h3 className="text-xl font-semibold text-gray-900">Call Us</h3>
                                 </div>
                                 <p className="text-gray-600 ml-9">
-                                    <a href="tel:0124-4041352" className="hover:text-[#160740]">0124-4041352</a>
+                                    <a href="tel:+91-9667092504" className="hover:text-[#160740]">+91-9667092504</a>
                                 </p>
                             </div>
                         </div>
