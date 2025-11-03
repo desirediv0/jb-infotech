@@ -45,7 +45,7 @@ const Footer = () => {
                     <div>
                         <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
                         <div className="space-y-2 text-sm text-gray-200">
-                            <p>1382, / 18</p>
+                            <p>1382/18</p>
                             <p>Surat Nagar Phase 2</p>
                             <p>Gurugram- 122006</p>
                             <p>Phone: +91-9667092504</p>
